@@ -44,6 +44,7 @@ function getTeachers() {
     })
     .catch(() => {
         list_container.innerHTML = "<div style='width: 100%; text-align: center; font-weight: lighter; font-size: 20px; margin-top: 10px; color: red;'>获取学生列表失败</div>";
+        list_container_good.innerHTML = "<div style='width: 100%; text-align: center; font-weight: lighter; font-size: 20px; margin-top: 10px; color: red;'>获取学生列表失败</div>";
     })
     .then(response => response.json())
     .then(data => {
