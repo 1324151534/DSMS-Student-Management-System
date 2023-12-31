@@ -77,13 +77,13 @@ INSERT INTO teachers (name) VALUES ('陈老师');
 INSERT INTO teachers (name) VALUES ('刘老师');
 INSERT INTO teachers (name) VALUES ('戴老师');
 
-INSERT INTO courses (course_name, courses_year, nature, major_id, credits, class_id) VALUES ('数据库', 2023, '必修', 1, 4, 1);
-INSERT INTO courses (course_name, courses_year, nature, major_id, credits, class_id) VALUES ('线性代数', 2023, '必修', 2, 3, 2);
-INSERT INTO courses (course_name, courses_year, nature, major_id, credits, class_id) VALUES ('古代文学', 2023, '选修', 3, 1, 3);
+INSERT INTO courses (course_name, courses_year, nature, major_id, credits) VALUES ('数据库', 2023, '必修', 1, 4);
+INSERT INTO courses (course_name, courses_year, nature, major_id, credits) VALUES ('线性代数', 2023, '必修', 2, 3);
+INSERT INTO courses (course_name, courses_year, nature, major_id, credits) VALUES ('古代文学', 2023, '选修', 3, 1);
 
-INSERT INTO grades (student_id, course_id, grade, is_retake) VALUES (1, 1, 85, false);
-INSERT INTO grades (student_id, course_id, grade, is_retake) VALUES (2, 2, 90, false);
-INSERT INTO grades (student_id, course_id, grade, is_retake) VALUES (3, 3, 82, false);
+INSERT INTO grades (student_id, course_id, grade) VALUES (1, 1, 85, false);
+INSERT INTO grades (student_id, course_id, grade) VALUES (2, 2, 90, false);
+INSERT INTO grades (student_id, course_id, grade) VALUES (3, 3, 82, false);
 
 INSERT INTO teacher_course_class (teacher_id, course_id, class_id) VALUES (1, 1, 1);
 INSERT INTO teacher_course_class (teacher_id, course_id, class_id) VALUES (2, 2, 2);
