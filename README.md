@@ -1,6 +1,8 @@
 # Student Management System | DSMS
 A simple Student Management System built on Flask&PostgreSQL
 
+For XDU Homework.
+
 ###  File Tree:
 
 ```bash
