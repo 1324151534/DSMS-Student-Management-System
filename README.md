@@ -1,8 +1,6 @@
 # Student Management System | DSMS
 A simple Student Management System built on Flask&PostgreSQL
 
-For Xidian University's SQL Homework.
-
 ###  File Tree:
 
 ```bash
